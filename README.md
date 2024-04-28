@@ -38,16 +38,17 @@ rrm --empty
 
 # Move files to the recycle bin
 rrm <file1> <file2> ...
+```
 ⚙️ Configuration
 The recycle bin directory is located at ~/Recycle_Bin by default. You can customize the location by modifying the script.
 
 🤝 Contribution
-Contributions are welcome! Feel free to submit issues, feature requests, or pull requests on GitHub.
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests on <a href="https://github.com/Olakunle64/Terminal-utils">Github</a>
 
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 <div align="center">
-  Made with ❤️ by Your Salau Isiaka Olakunle
+  Made with ❤️ by Salau Isiaka Olakunle
 </div>
 

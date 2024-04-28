@@ -2,7 +2,7 @@
 # This script create a function called <rrm> that store a file in a recycle bin at the home directory
 # before deleting it.
 
-cp ~/.bashrc .bashrc_backup
+cp ~/.bashrc  .bashrc_backup
 cat <<'EOF' >> ~/.bashrc
 rrm() {
 	if [ "$1" == "--help" ]; then
