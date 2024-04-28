@@ -1,6 +1,7 @@
 <div align="center">
   <h1>🛠️ Terminal Utils 🛠️</h1>
   <p>A collection of custom commands and utilities for the terminal.</p>
+  <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="Made with Bash">
 </div>
 
 ## 🚀 Overview
@@ -19,7 +20,7 @@ The `rrm` script creates a custom `rm` command for the Bash shell, providing fun
 1. Clone the repository or download the `rm_script.sh` script.
 2. Make the script executable: `chmod +x rm_script.sh`.
 3. Run the script: `./rm_script.sh`.
-4. Run `source .bashrc` in the home directory
+4. Run `source ~/.bashrc`
 
 ## 🛠️ Usage
 
@@ -38,6 +39,10 @@ rrm --empty
 
 # Move files to the recycle bin
 rrm <file1> <file2> ...
+
+# swap your default rm command with rrm -- optional
+alias rrm=rm
+alias rm=rrm
 ```
 ⚙️ Configuration
 The recycle bin directory is located at ~/Recycle_Bin by default. You can customize the location by modifying the script.
