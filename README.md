@@ -16,9 +16,10 @@ The `rrm` script creates a custom `rm` command for the Bash shell, providing fun
 
 ## 📦 Installation
 
-1. Clone the repository or download the `rrm` script.
-2. Make the script executable: `chmod +x rrm`.
-3. Run the script: `./rrm`.
+1. Clone the repository or download the `rm_script.sh` script.
+2. Make the script executable: `chmod +x rm_script.sh`.
+3. Run the script: `./rm_script.sh`.
+4. Run `source .bashrc` in the home directory
 
 ## 🛠️ Usage
 
@@ -37,4 +38,16 @@ rrm --empty
 
 # Move files to the recycle bin
 rrm <file1> <file2> ...
+⚙️ Configuration
+The recycle bin directory is located at ~/Recycle_Bin by default. You can customize the location by modifying the script.
+
+🤝 Contribution
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests on GitHub.
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+<div align="center">
+  Made with ❤️ by Your Salau Isiaka Olakunle
+</div>
 
